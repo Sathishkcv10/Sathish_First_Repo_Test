@@ -1,4 +1,4 @@
 - name:"gcr.io/cloud-builders/docker"
   args['build', '-t', 'gcr.io/global-walker-394718/first_app', '.']
 - name:"gcr.io/cloud-builders/docker"
-  args['push', '-t','gcr.io/global-walker-394718/first_app']
+  args['push', 'gcr.io/global-walker-394718/first_app']
