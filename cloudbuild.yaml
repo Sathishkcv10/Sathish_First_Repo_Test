@@ -3,7 +3,7 @@ substitutions:
 
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/global-walker-394718/${_IMG_NAME}', '-f', 'Dockerfile', '.']
+  args: ['build', '-t', 'gcr.io/global-walker-394718/${_IMG_NAME}', '-t' , 'gcr.io/global-walker-394718/${_IMG_NAME}:latest', '.']
 images: ['gcr.io/global-walker-394718/${_IMG_NAME}']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/global-walker-394718/${_IMG_NAME}']
