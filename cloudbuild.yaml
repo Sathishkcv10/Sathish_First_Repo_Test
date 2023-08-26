@@ -1,7 +1,7 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/global-walker-394718/first_app2', '.']
+  args: ['build', '-t', 'gcr.io/global-walker-394718/first_app3', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/global-walker-394718/first_app2']
-images: ['gcr.io/global-walker-394718/first_app2']
+  args: ['push', 'gcr.io/global-walker-394718/first_app3']
+images: ['gcr.io/global-walker-394718/first_app3']
