@@ -6,7 +6,7 @@ RUN pip install -r requirements.txt
 
 RUN mkdir -p app
 
-COPY ./app app
+COPY ./app main.py
 
 EXPOSE 80
 
